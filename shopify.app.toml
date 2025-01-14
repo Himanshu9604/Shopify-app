@@ -1,0 +1,20 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6a4d0263c9b013f15a7ac37aba2dedb2"
+application_url = "https://example.com/"
+embedded = true
+name = "himanshu-app"
+handle = "himanshu-app"
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[pos]
+embedded = false
